@@ -2,7 +2,7 @@
     display:flex;
 }
 #contener{
-    margin-left:19.5rem;
+    margin-left:14.1rem;
     margin-top: 2rem;
 }
 #logo{
@@ -45,7 +45,7 @@
     background-position: 50%;
 }
 #nav-link{
-    margin-left: 15rem;
+    margin-left: 21rem;
     margin-top: 0.4rem;
 }
 .lien_href{
@@ -79,7 +79,6 @@
 .btn-login:hover{
     background-color: #49deffd3;
     color:black;
-    border-color: white;
     
 }
 
@@ -96,12 +95,14 @@
         margin: 1.0rem;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+    
 
   }
 
   @media only screen and (max-width: 600px) {
     #logo{
        margin-left: -50px;
+
     }
     #contener{
         margin-left:10%;
@@ -127,13 +128,15 @@
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         border-radius: 0.3rem;
         font-size: 15px;
-        margin-left:70%;
-        margin-top: -150px;
+        margin-left:80%;
+        margin-top: 1rem;
     }
-
+    #box-contener-color{
+      display:block;
+      width: 100%;
+    }
+  
   }
-
-
 
   h1{
     margin-left: 45%;
@@ -156,26 +159,35 @@
     margin-top: -12px;
     font-size: 0.9rem;
   }
+  #box-contener-color{
+    display:flex;
+    width: 100%;
+  }
 
   #contener-color{
-    display:flex;
     margin-top: 3rem;
+  }
+  #idColor{
+    margin-left: 5rem;
   }
   
   h2{
     font-family:  'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left:19.5rem;
+    margin-left:15%;
     font-size: 1.9rem;
     color: #303030 ;
+    margin-right:6%;
+    
   }
+ 
 
   .color1{
    display:flex;
-   margin-left: 100px;
+   margin-left: 1%;
   }
 
   .color{
-    margin: 25px;
+    margin: 1.7rem;
     width: 120px;
     height: 120px;
     border-radius: 1rem;
@@ -184,6 +196,9 @@
     display:flex;
     
   }
+  #idName{
+    margin-left: 28%;
+  }
   .nameDiv1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 6rem;
@@ -191,7 +206,6 @@
   }
   .nameDiv{
     display:flex;
-    margin-left: 26.5rem;
     margin-top: -0.8rem;
   }
 
@@ -257,6 +271,34 @@
     margin-left: 24.9rem;
     margin-top: 0.3rem;
   }
+  @media only screen and (max-width:600px) {
+    h2{
+      font-size:1.8rem;
+      margin-left: 0%;
+    }
+    #box-contener-color{
+      display: block;
+    }
+    #idColor{
+      margin-left: 0rem;
+    }
+    #idName{
+      margin-left:-4rem;
+    }
+    #idCode{
+      margin-left:-30rem;
+    }
+    #idColor1{
+      margin-left: -14rem;
+    }
+    #idName1{
+      margin-left: -30rem;
+    }
+    #idCode1{
+      margin-left: -30rem;
+    }
+  }
+
   #text{
     margin-top: 5rem;
   }
@@ -267,7 +309,7 @@
     margin-top: 1.5%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.5rem;
-    margin-left: 9%;
+    margin-left:8.8%;
     color: #303030;
   }
 
@@ -310,21 +352,421 @@
     margin-top: 1.2rem;
     color: #303030;
   }
+
 #paragraph{
     display:flex;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 .paragraph3{
     margin-top: 1.2rem;
-    margin-left: 4.4%;
     font-family:'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
     color: #4e4e4ec7;
-    font-size: 0.9rem;
+    margin-left: 7%;
+    font-size: 1rem;
 }
-.paragraph4{
-    margin-top: 1.2rem;
-    margin-left: 34%;
-    font-family:'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
-    color: #4e4e4ec7;
-    font-size: 0.9rem;
+
+#box-list-contener{
+  display:flex;
+  margin-left: 14.5%;
+  margin-top: 5rem;
+}
+ #list-contener{
+  margin-top: -0.4rem;
+  margin-left:12%;
+} 
+
+.trList{
+  margin-top: 0%;
+  margin-left: 38%;
+}
+.check-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.round-background {
+  width: 23%;
+  height: 23%;
+  background-color: #303030;
+  border-radius: 50%;
+}
+
+.check-mark {
+  position: absolute;
+  top: 42%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  width: 3px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  border-radius: 2px;
+  transform: rotate(38deg);
+}
+.textList{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #303030af;
+  font-size:1rem;
+  margin-left: 100%;
+}
+#box-block-contener{
+  width: 100%;
+  height: 100%;
+  display:flex;
+  margin-top: 5rem;
+}
+#block-contener {
+  width: 40%;
+  height: 250px; 
+  position: relative;
+  border-radius: 1rem;
+  background: linear-gradient(to right, rgba(73, 222, 255, 0.72) 0%, rgba(73, 222, 255, 0.72) 50%, rgba(79, 255, 223, 0.71) 50%,rgba(79, 255, 223, 0.71)100%);
+}
+
+.block-round {
+  width: 8%;
+  height: 19%;
+  background-color:  rgba(48, 48, 48, 1); 
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.block-letter{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  color: #4e4e4e;
+  margin-top: 8rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+.w{
+  font-size: 26px;
+}
+.content-cote{
+   color: white;
+  font-size: 60px;
+  margin-left:7px;
+  
+}
+
+@media screen and (max-width:600px){
+  #box-block-contener{
+    width: 100%;
+    height: 100%;
+    display:block;
+    margin-top:0rem;
+  }
+  #block-contener {
+    width: 80%;
+    height: 250px; 
+    position: relative;
+    border-radius: 1rem;
+    background: linear-gradient(to right, rgba(73, 222, 255, 0.72) 0%, rgba(73, 222, 255, 0.72) 50%, rgba(79, 255, 223, 0.71) 50%,rgba(79, 255, 223, 0.71)100%);
+    margin-left: 12%;
+  }
+  .block-round {
+    width: 12%;
+    height: 19%;
+    background-color:  rgba(48, 48, 48, 1); 
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .block-letter{
+    margin-top: 0rem;
+  }
+}
+
+#box-icon-contener{
+  margin-top: 5rem;
+}
+
+.icon-contener{
+  display:flex;
+  margin-left: 14%;
+}
+.icon{
+  margin-left: 15%;
+  display: flex;
+  margin-top: 0.5rem;
+}
+.icon1{
+  width: 8%;
+  height: 86%; 
+  margin-left: 1rem;
+}
+
+.icon3{
+  width: 6%;
+  height: 66%;
+  margin-top:0.6rem;
+  margin-left: 1.4rem;
+  
+}
+.btn-button-line1{
+  display: flex;
+  margin-top:1rem;
+  margin-left:  4.8rem;
+}
+
+#box-btn-contener{
+  display:flex;
+  margin-top: 5rem;
+}
+#box-icon-linear{
+  margin-left: 22%;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width:600px){
+  #box-btn-contener{
+    display: block;
+    margin-top: 3rem;
+  }
+  .btn-button-line1{
+    margin-left: 0rem;
+    display: block;
+    margin-top: 1rem;
+    margin: 5px;
+  }
+  #btn2{
+    margin-top: 1rem;
+  }
+  #btn3{
+    margin-top: 2rem;
+  }
+  #btn4{
+    margin-top: 1rem;
+  }
+}
+
+.icon-linear{
+  margin-left: 23px;
+
+}
+.icon-linear1{
+  width:5rem;
+  height: 40%;
+  background-image:linear-gradient(to right,rgba(244, 244, 244, 0.212),rgba(128, 128, 128, 0.229));
+  padding:1.5rem;
+  display:flex;
+  border-radius: 50%;
+  
+}
+
+.bouclier{
+  width:2rem;
+  height: 2rem;
+  margin-top: 1rem;
+}
+.line{
+  width: 0.3rem;
+  height:2.5rem;
+  background-color:#459DD7;
+  color: transparent;
+  border-radius: 20px;
+  margin-top: 0.5rem;
+  margin-left: 0.3rem;
+}
+.etoile{
+  color: #459DD7; 
+  font-size: 52px;
+  margin-top: 5rem;
+}
+.icon-linear2{
+  width:5rem;
+  height: 40%;
+  background-image: linear-gradient(to right,rgba(244, 244, 244, 0.212),rgba(128, 128, 128, 0.229));
+  padding:1.5rem;
+  display:flex;
+  border-width: 5px;
+  border-radius: 50%;
+  margin-left: 2rem;
+  border-color:grey;
+
+}
+.mega1{
+  width:3rem;
+  height: 3rem;
+  margin-top: 0.6rem;
+  margin-left: 1rem;
+}
+#box-icon-little{
+  display:flex;
+  margin-left: 12%;
+  margin-top: 2rem;
+}
+.img{
+  width:2rem ;
+  height: 2rem;
+  margin-left:4.2%;
+}
+
+footer{
+  margin-left: -28.9%;
+  width: 129.6%;
+  background-color: #303030;
+  margin-top: 5rem;
+}
+#footer{
+  padding: 5rem;
+  margin-left: 10%;
+}
+
+#tete{
+  display: flex;
+}
+#body{
+  display: flex;
+}
+.teteliste{
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tetelist{
+  color: white;
+  margin-left: 10rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (max-width : 600px){
+  .tetelist{
+    color: white;
+    margin-left: 0.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+  }
+}
+
+.lien2{
+  margin-top: 1rem;
+}
+.lien_href2{
+  color: white;
+  text-decoration: none;
+  margin-top:5rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position:initial;
+}
+.lien_href2:hover{
+  background-color:#49deff69;
+  background-attachment: fixed;
+  margin: 0px;
+  height: 10px;
+  border-radius: 50px;
+  
+}
+
+#Service{
+  margin-left: 16%;
+}
+#Contact{
+  margin-left: 12.5%;
+}
+
+.contactStyle{
+  color:rgba(255, 255, 255, 0.774);
+  border-color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+}
+
+#Lastet{
+  background-image: url("../image/clavier.JPG");
+  width:30rem;
+  height: 10rem;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  margin-left: -15%;
+  border-radius:2rem;
+}
+
+.btn-lastet{
+  width: 25%;
+  height: 35%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.493);
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-color: transparent;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+.btn-lastet:hover{
+  font-size: 1rem;
+  width: 26%;
+  height: 36%;
+}
+
+@media screen and (max-width:600px){
+ #box-icon-little{
+  margin-left:-15%;
+  display: block;
+ }
+ .img{
+  width:2rem ;
+  height: 2rem;
+  margin-left:1.2%;
+}
+}
+#logo2{
+  overflow: hidden;
+  min-height: 10vh;
+}
+.img-logo2{
+ position: absolute;
+ border-radius: 7px;
+ background:white; 
+ width: 2.1rem;
+ height:2.0rem;
+}
+.img-logo-2-2{
+  position: absolute;
+  margin: 0.4rem;
+  border-radius: 2px;
+  background:#303030; 
+  margin-left: 6px;
+  width: 0.5em;
+  height: 1.3em;
+  background-repeat: no-repeat;
+}
+.img-logo-3-2{
+  position: absolute;
+  border-radius: 50%;
+  background:#49deffe2; 
+  width: 1em;
+  height: 1em;
+  margin-top: 7px;
+  margin-left: 11px;
+}
+.name-logo2{
+  color:white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+  font-size: 1.6em;
+  margin-left: 40px;
+  margin-top:100px;
+  background-position: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  #logo2{
+     margin-left: -100px;
+  }
+}
+
+h5{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 30%;
+  margin-top: 5%;
+  color: white;
 }
